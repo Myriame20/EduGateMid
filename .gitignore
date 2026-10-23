@@ -1,0 +1,37 @@
+
+# Fichiers d'environnement et secrets
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/auth.json
+
+# Dépendances installées
+**/node_modules/
+**/vendor/
+
+# Fichiers générés par Next.js
+**/.next/
+**/.vercel/
+**/out/
+**/build/
+**/dist/
+
+# Bases de données locales
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+
+# Journaux et caches
+**/*.log
+**/*.tsbuildinfo
+**/storage/framework/views/*.php
+**/bootstrap/cache/*.php
+
+# Fichiers système et IDE
+**/.DS_Store
+**/Thumbs.db
+**/.idea/
+**/.vscode/
+**/.phpunit.cache/
+**/.phpunit.result.cache
